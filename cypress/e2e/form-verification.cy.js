@@ -3,8 +3,8 @@ const password = "test1234";
 const wrongEmail = "test@test.com";
 const wrongPassword = "abcdefgh";
 
-describe("End to End test", () => {
-  it("It should refuse an empty email field at login", () => {
+describe("Form verification test", () => {
+  it("should refuse an empty email field at login", () => {
     cy.visit("/");
     cy.wait(1000);
 
@@ -15,7 +15,7 @@ describe("End to End test", () => {
     cy.get("#loginEmail:invalid").should("exist");
   });
 
-  it("It should refuse an empty password field at login", () => {
+  it("should refuse an empty password field at login", () => {
     cy.visit("/");
     cy.wait(1000);
 
@@ -26,7 +26,7 @@ describe("End to End test", () => {
     cy.get("#loginPassword:invalid").should("exist");
   });
 
-  it("It should refuse a wrong email at login", () => {
+  it("should refuse a wrong email at login", () => {
     cy.visit("/");
     cy.wait(1000);
 
@@ -37,7 +37,7 @@ describe("End to End test", () => {
     cy.get("#loginEmail:invalid").should("exist");
   });
 
-  it("It should refuse a wrong password at login", () => {
+  it("should refuse a wrong password at login", () => {
     cy.visit("/");
     cy.wait(1000);
 
