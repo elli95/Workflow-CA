@@ -16,7 +16,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#Installation">Installation</a></li>
-        <li><a href="#Manually run test">Manually run test</a></li>
+        <li><a href="#Manually-run-test">Manually run test</a></li>
       </ul>
     </li>
     <li><a href="#Contributing">Contributing</a></li>
