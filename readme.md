@@ -30,15 +30,18 @@
 
 This is the Workfloow Course Assignment, made during my second year of education at noroff, autumn 2023 - spring 2024.
 
-This project is based on [Social-media-client](https://github.com/NoroffFEU/social-media-client).
+This project is based on the project: [Social-media-client](https://github.com/NoroffFEU/social-media-client).
 
-In this project, several tests have been added that show the condition of the use and functionality of the project.
+In this project, several tests have been added that show the condition of the use and functionality of the project. All tests will automatically run on gitHub when you create a new pull request.
 
-The tests are shown below and show how the condition (passing/failing) of the test:
+These tests shown below show how the condition (passing/failing) of the test:
 
 [![Automated E2E Testing](https://github.com/elli95/Workflow-CA/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/elli95/Workflow-CA/actions/workflows/e2e-test.yml)
+
 [![Automated Unit Testing](https://github.com/elli95/Workflow-CA/actions/workflows/unit-test.yml/badge.svg)](https://github.com/elli95/Workflow-CA/actions/workflows/unit-test.yml)
+
 [![Code Review](https://github.com/elli95/Workflow-CA/actions/workflows/gpt.yml/badge.svg)](https://github.com/elli95/Workflow-CA/actions/workflows/gpt.yml)
+
 [![Deploy static content to Pages](https://github.com/elli95/Workflow-CA/actions/workflows/pages.yml/badge.svg)](https://github.com/elli95/Workflow-CA/actions/workflows/pages.yml)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -68,6 +71,16 @@ git clone https://github.com/elli95/Cross-Course-Project_Rainy-Day_Elise-Marie-H
 2. Open the folder with a code editor (ex. visual studio code)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Manually run test
+
+There are different codes that can be used to run the tests manually, these codes can for example be run via the terminal in vscode or git bash, and they are:
+
+All tests: `npm run test`
+
+Unit tests: `npm run test-unit`
+
+E2e tests: `npm run test-e2e-cli`
 
 <!-- Contributing -->
 
