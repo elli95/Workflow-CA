@@ -16,6 +16,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#Installation">Installation</a></li>
+        <li><a href="#Manually run test">Manually run test</a></li>
       </ul>
     </li>
     <li><a href="#Contributing">Contributing</a></li>
@@ -72,7 +73,7 @@ git clone https://github.com/elli95/Cross-Course-Project_Rainy-Day_Elise-Marie-H
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Manually run test
+### Manually run test
 
 There are different codes that can be used to run the tests manually, these codes can for example be run via the terminal in vscode or git bash, and they are:
 
@@ -81,6 +82,8 @@ All tests: `npm run test`
 Unit tests: `npm run test-unit`
 
 E2e tests: `npm run test-e2e-cli`
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Contributing -->
 
