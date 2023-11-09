@@ -49,6 +49,10 @@ These tests shown below show how the condition (passing/failing) of the test:
 
 ### Built With
 
+[![My Skills] Cypress](https://www.cypress.io/)
+
+[![My Skills](https://skillicons.dev/icons?i=jest) Jest](https://jestjs.io/)
+
 [![My Skills](https://skillicons.dev/icons?i=github) GitHub](https://github.com/)
 
 [![My Skills](https://skillicons.dev/icons?i=git) Git Bash](https://git-scm.com/)
@@ -81,7 +85,7 @@ All tests: `npm run test`
 
 Unit tests: `npm run test-unit`
 
-E2e tests: `npm run test-e2e-cli`
+E2e tests: `npm run test-e2e` or `npm run test-e2e-cli` to use the CLI.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
