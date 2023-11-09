@@ -49,7 +49,7 @@ These tests shown below show how the condition (passing/failing) of the test:
 
 ### Built With
 
-[![My Skills] Cypress](https://www.cypress.io/)
+[Cypress](https://www.cypress.io/)
 
 [![My Skills](https://skillicons.dev/icons?i=jest) Jest](https://jestjs.io/)
 
