@@ -45,11 +45,21 @@ These tests shown below show how the condition (passing/failing) of the test:
 
 [![Deploy static content to Pages](https://github.com/elli95/Workflow-CA/actions/workflows/pages.yml/badge.svg)](https://github.com/elli95/Workflow-CA/actions/workflows/pages.yml)
 
+In addition, we find the branch [workflow-formatting](https://github.com/elli95/Workflow-CA/tree/workflow-formatting) which contains eslint and prettier to help with cleaning and the setup of files if desired.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
 [Cypress](https://www.cypress.io/)
+
+[Prettier](https://prettier.io/)
+
+[EsLint](https://eslint.org/)
+
+[Husky](https://github.com/typicode/husky)
+
+[![My Skills](https://skillicons.dev/icons?i=babel) Babel](https://babeljs.io/)
 
 [![My Skills](https://skillicons.dev/icons?i=jest) Jest](https://jestjs.io/)
 
