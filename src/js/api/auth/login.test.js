@@ -1,3 +1,4 @@
+import localStorageMock from "./LocalStorage.mock.js";
 import { login } from "./login.js";
 
 const TEST_USER = {
@@ -13,12 +14,7 @@ const mockFetchSuccess = jest.fn().mockResolvedValue({
 
 globalThis.fetch = mockFetchSuccess;
 
-const storageMock = {
-  setItem: jest.fn((key, value) => (localStorage[key] = value.toString())),
-  getItem: jest.fn((key) => localStorage[key] || null),
-};
-
-globalThis.localStorage = storageMock;
+globalThis.localStorage = localStorageMock;
 
 describe("login test", () => {
   it("should fetch the profile/token data stored in the browser storage", async () => {
