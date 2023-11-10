@@ -80,7 +80,7 @@ In addition, we find the branch [workflow-formatting](https://github.com/elli95/
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/elli95/Cross-Course-Project_Rainy-Day_Elise-Marie-Hogsnes
+git clone https://github.com/elli95/Workflow-CA/tree/workflow
 ```
 
 2. Open the folder with a code editor (ex. visual studio code)
