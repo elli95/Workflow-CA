@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# Workfloow Course Assignment
+# Workflow Course Assignment
 
 <!-- TABLE OF CONTENTS -->
 <details>
