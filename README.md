@@ -97,7 +97,7 @@ All tests: `npm run test`
 
 Unit tests: `npm run test-unit`
 
-E2e tests: `npm run test-e2e` or `npm run test-e2e-cli` to use the CLI.
+E2e tests: `npm run test-e2e-cli` or `npm run test-e2e` to open the cypress program/browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
