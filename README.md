@@ -34,6 +34,7 @@ This is the Workfloow Course Assignment, made during my second year of education
 This project is based on the project: [Social-media-client](https://github.com/NoroffFEU/social-media-client).
 
 In this project, several tests have been added that show the condition of the use and functionality of the project. All tests will automatically run on gitHub when you create a new pull request.
+This project is also configure with eslint, prettier and commit hooks. This way the code will be formatted and linted each time you save/committed the code.
 
 These tests shown below show how the condition (passing/failing) of the test:
 
